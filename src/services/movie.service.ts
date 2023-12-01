@@ -20,7 +20,7 @@ export class MovieService {
   }
 
   private loadMoviesData() {
-    const jsonFileUrl = '../assets/movies-data.json';
+    const jsonFileUrl = './assets/movies-data.json';
 
     // Use HttpClient to get the JSON file
     this.http.get<Movie[]>(jsonFileUrl).pipe(

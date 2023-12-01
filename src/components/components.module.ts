@@ -7,13 +7,11 @@ import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { MoviesComponent } from './movies/movies.component';
 import { RoundedRatingComponent } from './rounded-rating/RoundedRatingComponent';
 import { SearchComponent } from './search/search.component';
-import { WatchlistComponent } from './watchlist/watchlist.component';
 
 @NgModule({
   declarations: [
     MoviesComponent,
     SearchComponent,
-    WatchlistComponent,
     MovieCardComponent,
     RoundedRatingComponent,
     LoaderComponent,
@@ -22,7 +20,6 @@ import { WatchlistComponent } from './watchlist/watchlist.component';
   exports: [
     MoviesComponent,
     SearchComponent,
-    WatchlistComponent,
     LoaderComponent,
     MovieDetailsComponent,
   ],

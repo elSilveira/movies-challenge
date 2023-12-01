@@ -1,0 +1,43 @@
+:host {
+  width: fit-content;
+}
+.details {
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+  display: flex;
+}
+
+.arrow {
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -4px;
+  padding-right: 15px;
+  padding-left: 15px;
+  justify-content: center;
+}
+.goback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(185 185 185);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  &:hover {
+    background: rgb(209, 207, 207);
+  }
+  img {
+    width: 18px;
+  }
+}

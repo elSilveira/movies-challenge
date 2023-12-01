@@ -1,0 +1,19 @@
+<div class="theater"
+     *ngIf="movie">
+  <div class="theater--container">
+    <div class="theater--video">
+      <iframe [src]="movie.trailerLink | safe"
+              title="{{movie.title}}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+    </div>
+    <div class="theater--details">
+      <app-movie-details [movie]="movie"></app-movie-details>
+    </div>
+  </div>
+  <div class="notfound"
+       *ngIf="!movie">
+    <app-loader></app-loader>
+  </div>
+</div>

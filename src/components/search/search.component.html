@@ -1,0 +1,18 @@
+<div class="search">
+  <input type="text"
+         placeholder="Search..."
+         [(ngModel)]="searchTerm">
+  <div class="sort">
+    <img [class.desc]="(sortOrder$ | async) == 'desc'"
+         src="../assets/images/sort.png"
+         (click)="changeOrder()">
+    <div class="sort-items">
+      <div class="sort-item"
+           [class.selected]="(sortType$ | async) == 'title'"
+           (click)="sortBy('title')">Title</div>
+      <div class="sort-item"
+           [class.selected]="(sortType$ | async) == 'date'"
+           (click)="sortBy('date')">Release date</div>
+    </div>
+  </div>
+</div>

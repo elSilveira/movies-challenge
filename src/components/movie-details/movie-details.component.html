@@ -1,0 +1,16 @@
+<div class="details"
+     *ngIf="movie">
+  <app-movie-card [details]="true"
+                  [hidden]="!(open$ | async)"
+                  [movie]="movie"></app-movie-card>
+
+  <div class="arrow"
+       (click)="toggleOpen()">
+    <div class="goback"
+         (click)="navigateTo('')">
+      <img src="../assets/images/back.png">
+    </div>
+    {{ (open$ | async) ? '<<' : '>>'
+        }}
+        </div>
+  </div>

@@ -1,0 +1,43 @@
+<div class="movie-card"
+     [class.showDetails]="details"
+     *ngIf="movie">
+  <div class="movie-card--container">
+    <div class="movie-card--content">
+      <div class="video">
+        <img class="thumb"
+             src="../assets/images/{{movie.thumbnail}}">
+        <div class="top-detail">
+          <div class="rating">
+            <app-rounded-rating [rating]="movie.rating"></app-rounded-rating>
+          </div><label class="whatchlist-label"
+                 (click)="updateWatchlist(movie.title)">
+            {{onList(movie.title) ? 'On my watchlist' : 'Add to Watchlist'}} <img class="whatchlist-icon"
+                 [src]="onList(movie.title) ? '../assets/images/whitelist2.png' : '../assets/images/whitelist.png'"></label>
+
+        </div>
+      </div>
+      <div class="details">
+        <h3 class="title">{{movie.title}}</h3>
+        <div class="release-area">
+          <h4>Release Date:</h4>
+          <label class="release-date">
+            {{movie.releasedDate}}
+          </label>
+        </div>
+        <h4>Description:</h4>
+        <p class="content-description">{{movie.description}}</p>
+
+      </div>
+      <div class="genres">
+        <div class="genre"
+             *ngFor="let genre of movie.genre">
+          {{genre}}
+        </div>
+      </div>
+      <div class="more">
+        <a (click)="navigateTo('theater', movie.title)"><label>View more +</label></a>
+      </div>
+    </div>
+
+  </div>
+</div>

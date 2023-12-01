@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "git": "ng build --base-href=/eduardosilveira/",
+    "git": "ng build --base-href=/movies-challenge/",
     "test": "ng test"
   },
   "private": true,

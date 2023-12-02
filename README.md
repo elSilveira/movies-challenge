@@ -1,6 +1,4 @@
-![image](https://github.com/elSilveira/movies-challenge/assets/3988225/a9c3bf63-504c-4755-a03b-126ed370d13a)
 
-![image](https://github.com/elSilveira/movies-challenge/assets/3988225/29cd16cd-99ab-400b-b5c7-c862f689ea91)
 
 # Quicksuite
 
@@ -32,3 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Eduardo Luiz Silveira
 elSilveira Sistemas
+
+
+![image](https://github.com/elSilveira/movies-challenge/assets/3988225/a9c3bf63-504c-4755-a03b-126ed370d13a)
+
+![image](https://github.com/elSilveira/movies-challenge/assets/3988225/29cd16cd-99ab-400b-b5c7-c862f689ea91)

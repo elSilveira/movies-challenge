@@ -1,4 +1,4 @@
-# Quicksuite
+![image](https://github.com/elSilveira/movies-challenge/assets/3988225/46998e63-bcda-4e8f-b2a7-9b385458f1a7)# Quicksuite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
@@ -25,3 +25,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/elSilveira/movies-challenge/assets/3988225/6cb8c31e-7c29-4a8a-9e30-e56e9f225e38)

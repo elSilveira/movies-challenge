@@ -1,4 +1,5 @@
-![image](https://github.com/elSilveira/movies-challenge/assets/3988225/46998e63-bcda-4e8f-b2a7-9b385458f1a7)
+![image](https://github.com/elSilveira/movies-challenge/assets/3988225/a9c3bf63-504c-4755-a03b-126ed370d13a)
+
 ![image](https://github.com/elSilveira/movies-challenge/assets/3988225/29cd16cd-99ab-400b-b5c7-c862f689ea91)
 
 # Quicksuite
